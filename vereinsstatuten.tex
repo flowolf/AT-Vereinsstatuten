@@ -1,0 +1,264 @@
+%
+% Version 1.0 der Statuten des Vereins "<Dein Vereinsname>" % FIXXXME Name einsetzen
+% 
+% 20XX-XX-XX % FIXXXME aktuelles Datum
+% 
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{times}
+\usepackage{t1enc}
+\usepackage[austrian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+\usepackage{vmargin}
+\setpapersize{A4}
+\usepackage[utf8]{inputenc} 
+
+\setmarginsrb{1.75cm}{1.75cm}{1.75cm}{1.75cm}%
+             {0pt}{0pt}
+             {\baselineskip}{2.0\baselineskip}
+\parindent=1em
+\parskip=0pt
+\setlength{\marginparwidth}{4.0cm}
+\setlength{\marginparsep}{1.25em}
+
+\hyphenation{Ver-einsG be-stim-mten dis-zi-pli-nä-ren}
+
+\makeatletter
+\renewcommand{\@seccntformat}[1]{§\,\csname the#1\endcsname:\space}
+\renewcommand{\labelenumi}{(\theenumi)}
+\renewcommand{\p@enumii}{}
+\makeatother
+
+\newcommand{\comment}[1]{{\newline \bf /*Kommentar:} #1 {\bf Ende Kommentar*/}}
+% uncomment the following line to get comments:
+\def\comment#1{}
+
+\newenvironment{Itemize}{%
+  \begin{itemize}\setlength{\parsep}{\parskip}\setlength{\itemsep}{0pt}%
+}{\end{itemize}}
+
+\begin{document}
+\begin{center}
+  \Large%
+   Statuten des Vereins\\[.1\baselineskip]
+  \textsc{\LARGE <Dein Vereinsname>}
+  \vskip\baselineskip%
+\end{center}
+
+\section{Name, Sitz und Tätigkeitsbereich} % §1
+\label{sec:Name}
+\begin{enumerate}
+\item Der Verein führt den Namen "`\negthinspace{} <Dein Vereinsname>"', kurz: <Dein Vereinskurzname>. % FIXXXME Name(n) ändern
+\item Er hat seinen Sitz in <Vereinssitz> und erstreckt seine Tätigkeit auf <das Gebiet des Bundeslandes <Bundesland>/Tätigkeitsbereich>. % FIXXXME Vereinssitz
+\item Die Errichtung von Zweigvereinen <ist/ist nicht> beabsichtigt.
+\end{enumerate}
+
+\section{Zweck} % §2
+\label{sec:Zweck}
+\begin{enumerate}
+\item Der Verein, dessen Tätigkeit nicht auf Gewinn gerichtet ist, bezweckt:
+<Vereinszweck> % FIXXXME Vereinszweck
+\end{enumerate}
+
+\section{Mittel zur Erreichung des Vereinszwecks} % §3
+\label{sec:Mittel}
+\begin{enumerate}
+\item Der Vereinszweck soll durch die in den Abs. \ref{item:zweck-ideelle-mittel} und \ref{item:zweck-materielle-mittel} angeführten ideellen und materiellen Mittel erreicht werden.
+\item\label{item:zweck-ideelle-mittel} Als ideelle Mittel dienen:
+ \begin{enumerate}[(a)]
+ \item <Mittel> % FIXXXME Mittel
+ \item <Mittel2>
+ \end{enumerate} 
+\item\label{item:zweck-materielle-mittel} Die erforderlichen materiellen Mittel sollen aufgebracht werden durch
+ \begin{enumerate}[(a)]
+ \item Beitrittsgebühren und Mitgliedsbeiträge % FIXXXME materielle Mittel
+ \item <Einnahmen>
+ \end{enumerate} 
+\end{enumerate}
+
+\section{Arten der Mitgliedschaft} % §4
+\label{sec:Mitgliedschaft-Arten}
+\begin{enumerate}
+\item Die Mitglieder des Vereins gliedern sich in ordentliche, außerordentliche und Ehrenmitglieder.
+\item Ordentliche Mitglieder sind jene, die sich voll an der Vereinsarbeit beteiligen. Außerordentliche Mitglieder sind solche, die die Vereinstätigkeit vor allem durch Zahlung eines erhöhten Mitgliedsbeitrags fördern. Ehrenmitglieder sind Personen, die hiezu wegen besonderer Verdienste um den Verein ernannt werden.
+\end{enumerate}
+
+\section{Erwerb der Mitgliedschaft} % §5
+\label{sec:Mitgliedschaft-Erwerb}
+\begin{enumerate}
+\item Mitglieder des Vereins können alle physischen Personen werden, die 
+<Mitgliedsvoraussetzung> % FIXXXME
+, juristische Personen und rechtsfähige Personengesellschaften werden.
+\item  Über die Aufnahme von ordentlichen und außerordentlichen Mitgliedern entscheidet der Vorstand. Die Aufnahme kann ohne Angabe von Gründen verweigert werden.
+\item Bis zur Entstehung des Vereins erfolgt die vorläufige Aufnahme von ordentlichen und außerordentlichen Mitgliedern durch die Vereinsgründer, im Fall eines bereits bestellten Vorstands durch diesen. Diese Mitgliedschaft wird erst mit Entstehung des Vereins wirksam. Wird ein Vorstand erst nach Entstehung des Vereins bestellt, erfolgt auch die (definitive) Aufnahme ordentlicher und außerordentlicher Mitglieder bis dahin durch die Gründer des Vereins. 
+\item Die Ernennung zum Ehrenmitglied erfolgt auf Antrag des Vorstands durch die Generalversammlung.
+\end{enumerate}
+
+\section{Beendigung der Mitgliedschaft} % §6
+\label{sec:Mitgliedschaft-Beendigung}
+\begin{enumerate}
+\item Die Mitgliedschaft erlischt durch Tod, bei juristischen Personen und rechtsfähigen Personengesellschaften durch Verlust der Rechtspersönlichkeit, durch freiwilligen Austritt und durch Ausschluss.
+\item Der Austritt kann nur zum <Stichtag> erfolgen. Er muss dem Vorstand % FIXXXME
+mindestens <XX> Monat/e vorher schriftlich mitgeteilt werden. Erfolgt die % FIXXXME
+Anzeige verspätet, so ist sie erst zum nächsten Austrittstermin wirksam. 
+Für die Rechtzeitigkeit ist das Datum der Postaufgabe maßgeblich.
+\item Der Vorstand kann ein Mitglied ausschließen, wenn dieses trotz zweimaliger schriftlicher Mahnung unter Setzung einer angemessenen Nachfrist länger als sechs Monate mit der Zahlung der Mitgliedsbeiträge im Rückstand ist. Die Verpflichtung zur Zahlung der fällig gewordenen Mitgliedsbeiträge bleibt hievon unberührt.
+\item\label{item:beendigung-ausschluss} Der Ausschluss eines Mitgliedes aus dem Verein kann vom Vorstand wegen grober Verletzung seiner Mitgliedspflichten und wegen unehrenhaften Verhaltens verfügt werden.
+\item Die Aberkennung der Ehrenmitgliedschaft kann aus den im Abs. \ref{item:beendigung-ausschluss} genannten Gründen von der Generalversammlung über Antrag des Vorstandes beschlossen werden.
+\end{enumerate}
+
+\section{Rechte und Pflichten der Mitglieder} % §7
+\label{sec:Rechte-Pflichten}
+\begin{enumerate}
+
+\item\label{item:rp-rechte} Die Mitglieder sind berechtigt, an allen Veranstaltungen des Vereins teilzunehmen und die Einrichtungen des Vereins zu beanspruchen. Das Stimmrecht in der Generalversammlung sowie das aktive und passive Wahlrecht steht nur den ordentlichen und den Ehrenmitgliedern zu.
+\item Jedes Mitglied ist berechtigt, vom Vorstand die Ausfolgung der Statuten zu verlangen.
+\item Mindestens ein Zehntel der Mitglieder kann vom Vorstand die Einberufung einer Generalversammlung verlangen.
+\item Die Mitglieder sind in jeder Generalversammlung vom Vorstand über die Tätigkeit und finanzielle Gebarung des Vereins zu informieren. Wenn mindestens ein Zehntel der Mitglieder dies unter Angabe von Gründen verlangt, hat der Vorstand den betreffenden Mitgliedern eine solche Information auch sonst binnen vier Wochen zu geben.
+\item Die Mitglieder sind vom Vorstand über den geprüften Rechnungsabschluss (Rechnungslegung) zu informieren. Geschieht dies in der Generalversammlung, sind die Rechnungsprüfer einzubinden.
+
+\item\label{item:rp-pflichten} Die Mitglieder sind verpflichtet, die Interessen des Vereins nach Kräften zu fördern und alles zu unterlassen, wodurch das Ansehen und der Zweck des Vereins Abbruch erleiden könnte. Sie haben die Vereinsstatuten und die Beschlüsse der Vereinsorgane zu beachten. Die ordentlichen und außerordentlichen Mitglieder sind zur pünktlichen Zahlung der Beitrittsgebühr und der Mitgliedsbeiträge in der von der Generalversammlung beschlossenen Höhe verpflichtet.
+\end{enumerate}
+
+
+\section{Vereinsorgane} % §8
+\label{sec:Vereinsorgane}
+Organe des Vereins sind die Generalversammlung
+(§§\,\ref{sec:Generalversammlung} und
+\ref{sec:Generalversammlung-Aufgaben}), der Vorstand
+(§§\ref{sec:Vorstand} bis \ref{sec:Vorstandsmitglieder}), die
+Rechnungsprüfer (§\,\ref{sec:Rechnungspruefer}) und das Schiedsgericht
+(§\,\ref{sec:Schiedsgericht}).
+
+\section{Generalversammlung} % §9
+\label{sec:Generalversammlung}
+\begin{enumerate}
+\item\label{item:gv-ordentlich} Die ordentliche Generalversammlung findet
+ <Generalversammlungsfrequenz> statt. % FIXXXME
+\item\label{item:ev-ausserord} Eine außerordentliche Generalversammlung findet auf 
+\begin{enumerate}[(a)]
+\item\label{item:ev-ausserord:vorstand} Beschluss des Vorstandes, der ordentlichen Generalversammlung 
+\item\label{item:ev-ausserord:mitglieder} auf schriftlichen Antrag von mindestens einem Zehntel der Mitglieder 
+\item\label{item:ev-ausserord:repr} Verlangen der Rechnungsprüfer (§ 21 Abs. 5 erster Satz VereinsG),
+\item\label{item:ev-ausserord:repr2} Beschluss der/eines Rechnungsprüfer/s (§ 21 Abs. 5 zweiter Satz VereinsG, §\,\ref{sec:Vorstand} Abs. \ref{item:vorstand-wahlen} dritter Satz dieser Statuten),
+\item\label{item:ev-ausserord:kurator} Beschluss eines gerichtlich bestellten Kurators (§\,\ref{sec:Vorstand} Abs. \ref{item:vorstand-wahlen} letzter Satz dieser Statuten)
+\end{enumerate}
+binnen vier Wochen statt.
+
+\item Sowohl zu den ordentlichen wie auch zu den außerordentlichen Generalversammlungen sind alle Mitglieder mindestens zwei Wochen vor dem Termin schriftlich, mittels Telefax oder per E-Mail (an die vom Mitglied dem Verein bekanntgegebene Fax-Nummer oder E-Mail-Adresse) einzuladen. Die Anberaumung der Generalversammlung hat unter Angabe der Tagesordnung zu erfolgen. Die Einberufung erfolgt durch den Vorstand (Abs. \ref{item:gv-ordentlich} und Abs. \ref{item:ev-ausserord} lit. \ref{item:ev-ausserord:vorstand} – \ref{item:ev-ausserord:repr}), durch die/einen Rechnungsprüfer (Abs. \ref{item:ev-ausserord} lit. \ref{item:ev-ausserord:repr2}) oder durch einen gerichtlich bestellten Kurator (Abs. \ref{item:ev-ausserord} lit. \ref{item:ev-ausserord:kurator}).
+
+\item Anträge zur Generalversammlung sind mindestens drei Tage vor dem Termin der Generalversammlung beim Vorstand schriftlich, mittels Telefax oder per E-Mail einzureichen.
+
+\item Gültige Beschlüsse – ausgenommen solche über einen Antrag auf Einberufung einer außerordentlichen Generalversammlung – können nur zur Tagesordnung gefasst werden.
+
+\item\label{item:stimmberechtigt} Bei der Generalversammlung sind alle Mitglieder teilnahmeberechtigt. Stimmberechtigt sind nur die ordentlichen und die Ehrenmitglieder. Jedes Mitglied hat eine Stimme. Die Übertragung des Stimmrechts auf ein anderes Mitglied im Wege einer schriftlichen Bevollmächtigung ist zulässig.
+
+\item Die Generalversammlung ist ohne Rücksicht auf die Anzahl der Erschienenen beschlussfähig.
+
+\item Die Wahlen und die Beschlussfassungen in der Generalversammlung erfolgen in der Regel mit einfacher Mehrheit der abgegebenen gültigen Stimmen. Beschlüsse, mit denen das Statut des Vereins geändert oder der Verein aufgelöst werden soll, bedürfen jedoch einer qualifizierten Mehrheit von zwei Dritteln der abgegebenen gültigen Stimmen.
+
+\item  Den Vorsitz in der Generalversammlung führt der/die Obmann/Obfrau, in dessen/deren Verhinderung sein/e/ihr/e Stellvertreter/in. Wenn auch diese/r verhindert ist, so führt das an Jahren älteste anwesende Vorstandsmitglied den Vorsitz.
+\end{enumerate}
+
+\section{Aufgaben der Generalversammlung} % §10
+\label{sec:Generalversammlung-Aufgaben}
+\begin{enumerate}
+\item Der Generalversammlung sind folgende Aufgaben vorbehalten:
+  \begin{enumerate}[(a)]
+  \item Beschlussfassung über den Voranschlag; 
+  \item Entgegennahme und Genehmigung des Rechenschaftsberichts und des Rechnungsabschlusses unter Einbindung der Rechnungsprüfer;
+  \item Wahl und Enthebung der Mitglieder des Vorstands und der Rechnungsprüfer;
+  \item Genehmigung von Rechtsgeschäften zwischen Rechnungsprüfern und Verein;
+  \item Entlastung des Vorstandes;
+  \item Festsetzung der Höhe der Beitrittsgebühr und der Mitgliedsbeiträge für ordentliche und für außerordentliche Mitglieder;
+  \item Verleihung und Aberkennung der Ehrenmitgliedschaft;
+  \item Beschlussfassung über Statutenänderungen und die freiwillige Auflösung des Vereins;
+  \item Beratung und Beschlussfassung über sonstige auf der Tagesordnung stehende Fragen.
+  \end{enumerate}
+\end{enumerate}
+
+\section{Vorstand} % § 11
+\label{sec:Vorstand}
+\begin{enumerate}
+\item\label{item:vorstand-mitglieder} Der Vorstand besteht aus sechs Mitgliedern, und zwar aus Obmann/Obfrau und Stellvertreter/in, Schriftführer/in und Stellvertreter/in sowie Kassier/in und Stellvertreter/in.
+\item\label{item:vorstand-wahlen} Der Vorstand wird von der Generalversammlung gewählt. Der Vorstand hat bei Ausscheiden eines gewählten Mitglieds das Recht, an seine Stelle ein anderes wählbares Mitglied zu kooptieren, wozu die nachträgliche Genehmigung in der nächstfolgenden Generalversammlung einzuholen ist. Fällt der Vorstand ohne Selbstergänzung durch Kooptierung überhaupt oder auf unvorhersehbar lange Zeit aus, so ist jeder Rechnungsprüfer verpflichtet, unverzüglich eine außerordentliche Generalversammlung zum Zweck der Neuwahl eines Vorstands einzuberufen. Sollten auch die Rechnungsprüfer handlungsunfähig sein, hat jedes ordentliche Mitglied, das die Notsituation erkennt, unverzüglich die Bestellung eines Kurators beim zuständigen Gericht zu beantragen, der umgehend eine außerordentliche Generalversammlung einzuberufen hat.
+\item\label{item:vorstand-dauer} Die Funktionsperiode des Vorstands beträgt <Funktionsdauer> Jahre; %FIXXXME Funktionsdauer
+ Wiederwahl ist möglich. Jede Funktion im Vorstand ist persönlich auszuüben.
+\item Der Vorstand wird vom Obmann/von der Obfrau, bei Verhinderung von seinem/seiner/ihrem/ihrer Stellvertreter/in, schriftlich oder mündlich einberufen. Ist auch diese/r auf unvorhersehbar lange Zeit verhindert, darf jedes sonstige Vorstandsmitglied den Vorstand einberufen.
+
+\item Der Vorstand ist beschlussfähig, wenn alle seine Mitglieder eingeladen wurden und mindestens die Hälfte von ihnen anwesend ist.
+
+\item Der Vorstand fasst seine Beschlüsse mit einfacher Stimmenmehrheit; bei Stimmengleichheit gibt die Stimme des/der Vorsitzenden den Ausschlag.
+
+\item Den Vorsitz führt der/die Obmann/Obfrau, bei Verhinderung sein/e/ihr/e Stellvertreter/in. Ist auch diese/r verhindert, obliegt der Vorsitz dem an Jahren ältesten anwesenden Vorstandsmitglied oder jenem Vorstandsmitglied, das die übrigen Vorstandsmitglieder mehrheitlich dazu bestimmen.
+
+\item\label{item:vorstand-tod-ablauf} Außer durch den Tod und Ablauf der Funktionsperiode (Abs. \ref{item:vorstand-dauer}) erlischt die Funktion eines Vorstandsmitgliedes durch Enthebung (Abs. \ref{item:vorstand-enthebung}) und Rücktritt (Abs. \ref{item:vorstand-rücktritt}).
+\item\label{item:vorstand-enthebung} Die Generalversammlung kann jederzeit den gesamten Vorstand oder einzelne seiner Mitglieder entheben. Die Enthebung tritt mit Bestellung des neuen Vorstandes bzw. Vorstandsmitgliedes in Kraft.
+\item\label{item:vorstand-rücktritt} Die Vorstandsmitglieder können jederzeit schriftlich ihren Rücktritt erklären. Die Rücktrittserklärung ist an den Vorstand, im Falle des Rücktrittes des gesamten Vorstandes an die Generalversammlung zu richten. Der Rücktritt wird erst mit Wahl bzw. Kooptierung (Abs. \ref{item:vorstand-wahlen}) eines Nachfolgers wirksam.
+\end{enumerate}
+
+
+\section{Aufgaben des Vorstands} % § 12
+\label{sec:Vorstand-Aufgaben}
+\begin{enumerate}
+\item Dem Vorstand obliegt die Leitung des Vereins. Er ist das „Leitungsorgan“ im Sinne des Vereinsgesetzes 2002. Ihm kommen alle Aufgaben zu, die nicht durch die Statuten einem anderen Vereinsorgan zugewiesen sind. In seinen Wirkungsbereich fallen insbesondere folgende Angelegenheiten:
+ \begin{enumerate}[(a)]
+ \item Einrichtung eines den Anforderungen des Vereins entsprechenden Rechnungswesens mit laufender Aufzeichnung der Einnahmen/Ausgaben und Führung eines Vermögensverzeichnisses als Mindesterfordernis;
+ \item Erstellung des Jahresvoranschlags, des Rechenschaftsberichts und des Rechnungsabschlusses;
+ \item Vorbereitung und Einberufung der Generalversammlung in den Fällen des § \ref{sec:Generalversammlung} Abs. \ref{item:gv-ordentlich} und Abs. \ref{item:ev-ausserord} lit. \ref{item:ev-ausserord:vorstand} – \ref{item:ev-ausserord:repr} dieser Statuten;
+ \item Information der Vereinsmitglieder über die Vereinstätigkeit, die Vereinsgebarung und den geprüften Rechnungsabschluss;
+ \item Verwaltung des Vereinsvermögens;
+ \item Aufnahme und Ausschluss von ordentlichen und außerordentlichen Vereinsmitgliedern;
+ \item Aufnahme und Kündigung von Angestellten des Vereines.
+ \end{enumerate}
+\end{enumerate}
+
+
+\section{Besondere Obliegenheiten einzelner Vorstandsmitglieder} % §13
+\label{sec:Vorstandsmitglieder}
+\begin{enumerate}
+\item Der/die Obmann/Obfrau führt die laufenden Geschäfte des Vereins. Der/die Schriftführer/in unterstützt den/die Obmann/Obfrau bei der Führung der Vereinsgeschäfte.
+\item\label{item:vorstandsmitglieder-positionen} Der/die Obmann/Obfrau vertritt den Verein nach außen. Schriftliche Ausfertigungen des Vereins bedürfen zu ihrer Gültigkeit der Unterschriften des/der Obmanns/Obfrau und des Schriftführers/der Schriftführerin, in Geldangelegenheiten (vermögenswerte Dispositionen) des/der Obmanns/Obfrau und des Kassiers/der Kassierin. Rechtsgeschäfte zwischen Vorstandsmitgliedern und Verein bedürfen der Zustimmung eines anderen Vorstandsmitglieds.
+
+\item Rechtsgeschäftliche Bevollmächtigungen, den Verein nach außen zu vertreten bzw. für ihn zu zeichnen, können ausschließlich von den in Abs. 2 genannten Vorstandsmitgliedern erteilt werden.
+
+\item Bei Gefahr im Verzug ist der/die Obmann/Obfrau berechtigt, auch in Angelegenheiten, die in den Wirkungsbereich der Generalversammlung oder des Vorstands fallen, unter eigener Verantwortung selbständig Anordnungen zu treffen; im Innenverhältnis bedürfen diese jedoch der nachträglichen Genehmigung durch das zuständige Vereinsorgan.
+\item Der/die Obmann/Obfrau führt den Vorsitz in der Generalversammlung und im Vorstand.
+\item Der/die Schriftführer/in führt die Protokolle der Generalversammlung und des Vorstands.
+\item Der/die Kassier/in ist für die ordnungsgemäße Geldgebarung des Vereins verantwortlich.
+\item Im Fall der Verhinderung treten an die Stelle des/der Obmanns/Obfrau, des Schriftführers/der Schriftführerin oder des Kassiers/der Kassierin ihre Stellvertreter/innen.
+\end{enumerate}
+
+\section{Rechnungsprüfer} % §14
+\label{sec:Rechnungspruefer}
+\begin{enumerate}
+\item Zwei Rechnungsprüfer werden von der Generalversammlung auf die Dauer von <Dauer> Jahren %FIXXXME 
+ gewählt. Wiederwahl ist möglich. Die Rechnungsprüfer dürfen keinem Organ – mit Ausnahme der Generalversammlung – angehören, dessen Tätigkeit Gegenstand der Prüfung ist.
+\item Den Rechnungsprüfern obliegt die laufende Geschäftskontrolle sowie die Prüfung der Finanzgebarung des Vereins im Hinblick auf die Ordnungsmäßigkeit der Rechnungslegung und die statutengemäße Verwendung der Mittel. Der Vorstand hat den Rechnungsprüfern die erforderlichen Unterlagen vorzulegen und die erforderlichen Auskünfte zu erteilen. Die Rechnungsprüfer haben dem Vorstand über das Ergebnis der Prüfung zu berichten.
+
+\item Rechtsgeschäfte zwischen Rechnungsprüfern und Verein bedürfen der Genehmigung durch die Generalversammlung. Im Übrigen gelten für die Rechnungsprüfer die Bestimmungen des § \ref{sec:Vorstand} Abs. \ref{item:vorstand-tod-ablauf} bis \ref{item:vorstand-rücktritt} sinngemäß.
+\end{enumerate}
+
+\section{Schiedsgericht} % §15
+\label{sec:Schiedsgericht}
+\begin{enumerate}
+\item Zur Schlichtung von allen aus dem Vereinsverhältnis entstehenden Streitigkeiten ist das vereinsinterne Schiedsgericht berufen. Es ist eine „Schlichtungseinrichtung“ im Sinne des Vereinsgesetzes 2002 und kein Schiedsgericht nach den §§ 577 ff ZPO.
+
+\item Das Schiedsgericht setzt sich aus drei ordentlichen Vereinsmitgliedern zusammen. Es wird derart gebildet, dass ein Streitteil dem Vorstand ein Mitglied als Schiedsrichter schriftlich namhaft macht. Über Aufforderung durch den Vorstand binnen sieben Tagen macht der andere Streitteil innerhalb von 14 Tagen seinerseits ein Mitglied des Schiedsgerichts namhaft. Nach Verständigung durch den Vorstand innerhalb von sieben Tagen wählen die namhaft gemachten Schiedsrichter binnen weiterer 14 Tage ein drittes ordentliches Mitglied zum/zur Vorsitzenden des Schiedsgerichts. Bei Stimmengleichheit entscheidet unter den Vorgeschlagenen das Los. Die Mitglieder des Schiedsgerichts dürfen keinem Organ – mit Ausnahme der Generalversammlung – angehören, dessen Tätigkeit Gegenstand der Streitigkeit ist.
+
+\item Das Schiedsgericht fällt seine Entscheidung nach Gewährung beiderseitigen Gehörs bei Anwesenheit aller seiner Mitglieder mit einfacher Stimmenmehrheit. Es entscheidet nach bestem Wissen und Gewissen. Seine Entscheidungen sind vereinsintern endgültig.
+\end{enumerate}
+
+\section{Auflösung des Vereins} % §16
+\label{sec:Aufloesung}
+\begin{enumerate}
+\item Die freiwillige Auflösung des Vereins kann nur in einer Generalversammlung und nur mit Zweidrittelmehrheit der abgegebenen gültigen Stimmen beschlossen werden.
+
+\item Diese Generalversammlung hat auch – sofern Vereinsvermögen vorhanden ist – über die Abwicklung zu beschließen. Insbesondere hat sie einen Abwickler zu berufen und Beschluss darüber zu fassen, wem dieser das nach Abdeckung der Passiven verbleibende Vereinsvermögen zu übertragen hat. Dieses Vermögen14 soll, soweit dies möglich und erlaubt ist, einer Organisation zufallen, die gleiche oder ähnliche Zwecke wie dieser Verein verfolgt, sonst Zwecken der Sozialhilfe.
+\end{enumerate}
+
+\end{document}
+
+% FINE 
+
